@@ -1,8 +1,8 @@
-p1=int(raw_input())
-if(p1>=2 and p1<=100000):
-  if(p1%2==0):
-  	print("even")
+c1=int(raw_input())
+if(c1>=2 and c1<=100000):
+  if(c1%2==0):
+  	print("c1 is even")
   else:
-	print("odd")
+	print("c1 is odd")
 else:
-	print("invalid")
+	print("c1 is invalid")
